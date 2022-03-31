@@ -1,5 +1,5 @@
-class NetworkException {
-  int? errorCode;
+class NetworkException implements Exception {
+  final int? errorCode;
 
   NetworkException(this.errorCode);
 }
