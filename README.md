@@ -1,10 +1,14 @@
-# demo
+# Flutter DDD Demo
 
-A new Flutter project.
+Demo flutter application using `DDD` architecture.
 
-## Getting Started
+## Generator Command
 
-```
+```bash
 # build_runner command
-flutter pub run build_runner [watch|build] --delete-conflicting-outputs
+## build - one time build
+flutter pub run build_runner build --delete-conflicting-outputs
+
+## watch - build and watch file changes
+flutter pub run build_runner watch --delete-conflicting-outputs
 ```
